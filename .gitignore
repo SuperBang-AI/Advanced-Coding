@@ -1,3 +1,5 @@
 # 忽略所有 TODO 文件
 TODO
+
+# 忽略子文件下的 TODO 文件
 **/TODO 
