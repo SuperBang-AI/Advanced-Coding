@@ -1,5 +1,27 @@
+# .gitignore 文件使用方法
+# 
+# 基本语法：
+# - 以 # 开头的行为注释
+# - 每行一个忽略规则
+# - 使用 * 作为通配符
+# - 使用 / 表示目录
+# - 使用 ! 表示不忽略（例外规则）
+# - 使用 ** 匹配任意层级目录
+#
+# 示例：
+# *.log          # 忽略所有 .log 文件
+# build/         # 忽略 build 目录
+# !important.log # 不忽略 important.log 文件
+# **/temp/       # 忽略任意层级的 temp 目录
+
 # 忽略所有 TODO 文件
 TODO
 
 # 忽略子文件下的 TODO 文件
 **/TODO 
+
+# 忽略 VSCode/Cursor 配置文件夹
+.vscode/
+
+# 忽略所有 shell 脚本文件
+*.sh 
